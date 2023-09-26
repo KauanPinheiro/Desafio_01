@@ -16,19 +16,16 @@ const metros = {
         return this.n1 * this.n2    //this.n2 = 100
     },
     mil : (x,y) => {
-        this.n1 = x;
+        this.n1 = x ;
         this.n2 = y = 1000;
 
         return this.n1 * this.n2        //this.n2 = 1000
     }
 }
 
-let test ,resp,fin,gold;
 
-//testando o objeto metros
-test = metros.mil()
-    console.log(`o resultado é ${test }`)
 
+//objeto quilometro ->
 
 const quilometros = {
         n1 : 20,
@@ -53,10 +50,10 @@ const quilometros = {
             return this.n1 * this.n2        //this.n2 = 10000000
         }
     }
-//testando o objeto qui
-resp = quilometros.metro()
-    console.log(`O resultado é ${resp}`)
 
+
+
+// corpo do centimentros ->
 
 const centimetros = {
         n1 : 20,
@@ -82,10 +79,8 @@ const centimetros = {
         }
     }
 
-//testando o obejto cen
-fin = centimetros.metro()
-    console.log(`O resultado é ${fin}`)
 
+//corpo do milimetros ->
 
 const milimetros = {
         n1 : 20,
@@ -111,6 +106,31 @@ const milimetros = {
         }
     }
 
-//testando milietros
-gold = milimetros.metro()
-    console.log(`O resultado é ${gold       }`)
+
+//variavis
+let visor;
+
+visor = document.getElementById("#result").innerHTM
+
+
+//função do botão
+
+function botao(){
+
+    let bd1, bd2, bd3, bd4, stop, home ;
+
+bd1  = document.querySelector("#dig").value     
+stop = document.querySelector("#de").value
+home = document.querySelector("#para").value
+console.log(bd4)    
+console.log(stop)
+console.log(home)
+
+}
+
+
+//estrutura de decisão
+switch (){
+    case 1 :
+}
+
